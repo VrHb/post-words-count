@@ -25,12 +25,12 @@ client.command(
 
 
 @app.get('/')
-def show_index():
+def show_index() -> dict:
     return {'name_service': 'count_post_words'}
 
 
 @app.get('/getWords')
-def count_words():
+def count_words() -> JSONResponse:
     result = client.query(
         """
             SELECT
