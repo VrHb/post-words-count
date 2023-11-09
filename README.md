@@ -5,8 +5,8 @@
 1. Скопируйте репозиторий
 
 ```bash
-git clone  https://github.com/VrHb/post-words-count.git```
-
+git clone  https://github.com/VrHb/post-words-count.git
+```
 
 2. Разверните clickhouse, [инструкция](https://clickhouse.com/docs/en/getting-started/quick-start)
 
